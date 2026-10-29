@@ -26,13 +26,6 @@ BEGIN
 		PRINT 'Loading CRM Tables';
 		PRINT '---------------------------------------------';
 
-	/* Quality check - A primary key must be unique and not null 
-	Checks for NULLs or Duplicates in Primary Key
-	Check for unwanted spaces in string values
-	--Data Standardization & Consistency
-	Check the consistency of values in low cardinality(few possible values) columns 
-	Expectation: No Result
-	*/
 		SET @start_time = GETDATE();
 		PRINT '>> Truncating Table: silver.crm_cust_info';
 		TRUNCATE TABLE silver.crm_cust_info;
