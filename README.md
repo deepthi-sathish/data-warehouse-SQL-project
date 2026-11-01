@@ -1,4 +1,4 @@
-### SQL Server Data Warehouse and Analytics Project
+# SQL Server Data Warehouse and Analytics Project
 # Project Overview
 Designed and developed a modern SQL Server Data Warehouse to consolidate sales data from ERP and CRM source systems and transform raw datasets into structured, analysis-ready data. The project implements the Medallion Architecture (Bronze, Silver, and Gold) and covers the complete data warehousing process, including data ingestion, transformation, data quality validation, data integration, and dimensional modelling.
 
